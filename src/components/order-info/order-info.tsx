@@ -20,10 +20,6 @@ export const OrderInfo: FC = () => {
     }
   }, [dispatch, orderId]);
 
-  console.log('Order Data:', orderData);
-  console.log('Ingredients:', ingredients);
-  console.log('orderId:', orderId);
-
   /* Готовим данные для отображения */
   const orderInfo = useMemo(() => {
     if (!orderData || !ingredients.length) return null;

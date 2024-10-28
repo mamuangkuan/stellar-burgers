@@ -2,7 +2,7 @@ import React, { FC, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Preloader } from '../ui/preloader';
 import { IngredientDetailsUI } from '../ui/ingredient-details';
-import { useSelector, useDispatch } from '../../services/store'; // Используем типизированный useSelector
+import { useSelector, useDispatch } from '../../services/store';
 import { fetchIngredients } from '../../services/ingredientsSlice';
 
 export const IngredientDetails: FC = () => {
