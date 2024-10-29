@@ -25,4 +25,21 @@
 
 .detailHeader {
   text-align: center;
+
+}
+
+.headerIngredient {
+  font-family: 'Jet Brains Mono', monospace !important;
+  font-size: 36px !important;
+  font-weight: 700 !important;
+  line-height: 40px !important;
+  margin: 0;
+}
+
+.headerOrder {
+  font-family: 'Iceland', sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  margin: 0;
 }
