@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "accessToken": "111111111111111111111",
+  "refreshToken": "22222222222222222222",
+  "user": {
+    "email": "homuak@plotina.ru",
+    "name": "Добрый хомяк"
+  }
+}
