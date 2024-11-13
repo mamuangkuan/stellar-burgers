@@ -8,7 +8,7 @@ type BurgerConstructorState = {
   };
 };
 
-const initialState: BurgerConstructorState = {
+export const initialState: BurgerConstructorState = {
   constructorItems: {
     bun: null,
     ingredients: []

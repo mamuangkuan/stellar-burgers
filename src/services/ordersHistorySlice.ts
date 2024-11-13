@@ -10,7 +10,7 @@ type OrdersHistoryState = {
   error: string | null;
 };
 
-const initialState: OrdersHistoryState = {
+export const initialState: OrdersHistoryState = {
   isLoading: false,
   orders: [] as TOrder[],
   total: 0,

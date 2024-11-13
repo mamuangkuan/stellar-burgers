@@ -93,8 +93,8 @@ module.exports = {
     client: {
       overlay: {
         warnings: false, // отключает предупреждения
-        errors: true,    // оставляет ошибки
-      },
-    },
+        errors: true // оставляет ошибки
+      }
+    }
   }
 };
